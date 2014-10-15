@@ -1090,7 +1090,7 @@ private:
 
     static INT_PTR CALLBACK PluginsDialogProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam);
 
-    void GetGlobalSourceNames(List<CTSTR> &globalSourceNames,bool mainSceneGlobalSourceNames = false);
+    void GetGlobalSourceNames(List<CTSTR> &globalSourceNames);
     XElement* GetGlobalSourceElement(CTSTR lpName);
 
     static INT_PTR CALLBACK GlobalSourcesProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam);
